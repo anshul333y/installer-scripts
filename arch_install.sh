@@ -96,7 +96,7 @@ pacman -S --noconfirm networkmanager dhcpcd bluez bluez-utils pipewire pipewire-
   hyprland hyprpaper hypridle hyprlock rofi-wayland waybar dunst polkit-gnome gnome-keyring \
   qt5-wayland qt6-wayland xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-user-dirs \
   uwsm brightnessctl acpi pacman-contrib python-pywal xorg-xrdb unzip 7zip ntfs-3g udisks2 \
-  firefox telegram-desktop discord flatpak sxiv yazi poppler mpv mpd ncmpcpp mpc \
+  firefox flatpak sxiv yazi poppler mpv mpd ncmpcpp mpc \
   kitty wl-clipboard nvim lazygit fzf ripgrep fd tmux nodejs npm docker
 
 # installing flatpak packages
@@ -168,7 +168,7 @@ git clone https://aur.archlinux.org/paru-bin.git ~/dl/paru
 cd ~/dl/paru && makepkg -si --noconfirm && cd && rm -rf ~/dl/paru
 
 # installing aur packages
-paru -S --noconfirm hyprshot-git wlogout-git python-pywalfox google-chrome brave-bin \
+paru -S --noconfirm hyprshot-git python-pywalfox google-chrome brave-bin \
   visual-studio-code-bin
 
 # post install steps
